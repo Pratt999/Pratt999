@@ -58,8 +58,8 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pratt999&show_icons=true&theme=tokyonight&cache_seconds=86400" />
-  <img src="https://streak-stats.demolab.com?user=Pratt999&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SuryaRaikuni&show_icons=true&theme=tokyonight&cache_seconds=86400" />
+  <img src="https://streak-stats.demolab.com?user=SuryaRaikuni&theme=tokyonight" />
 </p>
 
 ---
@@ -87,4 +87,4 @@
 <!--END_SECTION:activity-->
 
 ## 🐍 Contribution Snake
-![snake](https://github.com/Pratt999/Pratt999/blob/output/github-contribution-grid-snake.svg)
+![snake](https://github.com/SuryaRaikuni/SuryaRaikuni/blob/output/github-contribution-grid-snake.svg)
