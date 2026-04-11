@@ -16,8 +16,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update recent activity
-        uses: Readme-Workflows/recent-activity@main
+      - name: Update README activity
+        uses: jamesgeorge007/github-activity-readme@master
         with:
           GH_USERNAME: SuryaRaikuni
 
@@ -26,5 +26,5 @@ jobs:
           git config --global user.name "SuryaRaikuni"
           git config --global user.email "suryapratap4500@gmail.com"
           git add .
-          git diff --cached --quiet || git commit -m "chore: update README activity"
+          git diff --cached --quiet || git commit -m "chore: update activity"
           git push
