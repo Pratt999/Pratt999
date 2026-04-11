@@ -2,7 +2,7 @@
 <h3 align="center">Full Stack & Backend Developer | CSE Student</h3>
 
 <p align="center">
-  <a href="https://github.com/Pratt999">GitHub</a> •
+  <a href="https://github.com/SuryaRaikuni">GitHub</a> •
   <a href="https://www.linkedin.com/in/surya-pratap-singh-raikuni/">LinkedIn</a> •
   <a href="mailto: suryaraikuni@gmail.com">Email</a>
 </p>
