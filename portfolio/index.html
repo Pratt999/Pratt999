@@ -2,31 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Prat | Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surya | Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Surya - Full Stack & Backend Developer specializing in scalable systems and interactive web apps.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
+  <header class="hero">
     <h1>Surya</h1>
-    <p>Full Stack & Backend Developer</p>
+    <p>Full Stack & Backend Developer | CSE Student</p>
   </header>
 
-  <section>
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Gesture Controlled Hand</h3>
-      <p>Computer vision + Arduino based system</p>
-    </div>
+  <main>
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="card">
+          <img src="../assets/gesture.png" alt="Gesture Controlled Robotic Hand" class="card-image">
+          <div class="card-content">
+            <h3>Gesture Controlled Hand</h3>
+            <p>A sophisticated computer vision + Arduino based system that tracks hand gestures in real-time to control a robotic hand.</p>
+          </div>
+        </article>
 
-    <div class="card">
-      <h3>Spider Quadbot</h3>
-      <p>12-servo robotic system with Bluetooth control</p>
-    </div>
-  </section>
+        <!-- Project 2 -->
+        <article class="card">
+          <img src="../assets/banking.png" alt="Mini Core Banking System" class="card-image">
+          <div class="card-content">
+            <h3>Mini Core Banking System</h3>
+            <p>Full-stack banking application built with Flask and PostgreSQL. Features secure transactions, account management, and an admin dashboard.</p>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card">
+          <div class="card-content">
+            <h3>Spider Quadbot</h3>
+            <p>12-servo robotic system with Bluetooth control, featuring complex inverse kinematics for stable movement across various terrains.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2026 Prat</p>
+    <p>&copy; 2026 Surya. Built with passion for technology.</p>
   </footer>
 
 </body>
