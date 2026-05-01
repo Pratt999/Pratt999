@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Surya </h1>
-<h3 align="center">Full Stack Developer and Cybersecurity Enthusiast | CSE Student</h3>
+<h3 align="center">Backend Developer & Cybersecurity Enthusiast | CSE Student</h3>
 
 <p align="center">
-  <a href="https://github.com/SuryaRaikuni">GitHub</a> •
+  <a href="https://autoencoders.vercel.app/">Resume / Live Demo</a> •
   <a href="https://www.linkedin.com/in/surya-pratap-singh-raikuni/">LinkedIn</a> •
   <a href="mailto: suryaraikuni@gmail.com">Email</a>
 </p>
@@ -10,10 +10,10 @@
 ---
 
 ## 🚀 About Me
-- 💻 I build **scalable backend systems & interactive web apps**
-- 🤖 Strong in **IoT + Hardware projects (Arduino, ESP32)**
-- ⚡ Currently transitioning into **Full Stack Development**
-- 🧠 Interested in **System Design, APIs, and Automation**
+- 🛡️ Building **unsupervised Network Intrusion Detection Systems (NIDS)** using deep autoencoders
+- 🤖 Passionate about **ML-powered cybersecurity** — detecting DDoS, port scans & brute-force attacks
+- ⚡ Strong in **Python backend systems** (Flask, FastAPI, PyTorch, Scapy)
+- 🧠 Interested in **Cybersecurity, System Design, and Anomaly Detection**
 
 ---
 
@@ -31,18 +31,26 @@
 - MongoDB  
 - MySQL / PostgreSQL  
 
+### 🔒 ML / Security
+- PyTorch (Deep Autoencoders)
+- Scapy (real-time packet sniffing)
+- Scikit-learn (AUC-ROC evaluation)
+
 ### 🧰 Tools
 - Git & GitHub  
-- Docker (learning)  
-- Linux  
+- Docker & Linux  
+- Streamlit & Vercel  
 
 ---
 
 ## 📌 Featured Projects
 
-## 🌐 Web Control Dashboard
-- Real-time control panel for hardware systems  
-- Built using modern frontend + backend integration  
+### 🛡️ Autoencoder-Based Network Anomaly Detection System
+- Unsupervised NIDS using a **Deep Autoencoder (PyTorch)** trained on normal traffic
+- Compresses traffic into a **4-dimensional latent space**; anomalies flagged via **μ+3σ threshold**
+- Real-time packet sniffing with **Scapy** + live **Streamlit** SOC dashboard
+- Detects DDoS, Port Scans, Brute Force without any labeled attack data
+- 🔗 **[Live Demo →](https://autoencoders.vercel.app/)**
 
 ### 🤖 Gesture Controlled Robotic Hand
 - Real-time hand tracking using computer vision  
@@ -65,8 +73,8 @@
 ---
 
 ## 🧠 Current Focus
-- Building **REST APIs & backend systems**
-- Learning **System Design fundamentals**
+- Building **unsupervised anomaly detection** systems for cybersecurity
+- Deepening knowledge of **Network Security & ML-based threat detection**
 - Improving **DSA for interviews**
 
 ---
@@ -78,7 +86,7 @@
 ---
 
 <p align="center">
-  ⚡ "I don’t just build projects, I build systems."
+  ⚡ "I don't just detect threats, I understand them mathematically."
 </p>
 
 

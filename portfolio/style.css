@@ -159,6 +159,13 @@ ul { list-style: none; }
   background: #fff; color: var(--c-dark-bg);
 }
 .btn-primary:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(255,255,255,0.2); }
+.btn-secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.4);
+  backdrop-filter: blur(4px);
+}
+.btn-secondary:hover { transform: translateY(-4px); background: rgba(255,255,255,0.1); border-color: #fff; }
 
 .social-links a {
   color: var(--c-subtle-light);
@@ -255,7 +262,7 @@ ul { list-style: none; }
    SKILLS (Clean Cards)
 ───────────────────────────── */
 .skills-grid {
-  display: grid; grid-template-columns: repeat(4,1fr); gap: 1.5rem;
+  display: grid; grid-template-columns: repeat(5,1fr); gap: 1.5rem;
 }
 .skill-card-clean {
   background: #fff; border: 1px solid #e4e4e7; border-radius: var(--r-lg);
@@ -289,6 +296,7 @@ footer {
 .skill-card-clean[data-delay="100"] { transition-delay: 0.1s; }
 .skill-card-clean[data-delay="200"] { transition-delay: 0.2s; }
 .skill-card-clean[data-delay="300"] { transition-delay: 0.3s; }
+.skill-card-clean[data-delay="400"] { transition-delay: 0.4s; }
 
 @keyframes slideUp {
   from { opacity:0; transform:translateY(30px); }
@@ -299,7 +307,7 @@ footer {
    RESPONSIVE
 ───────────────────────────── */
 @media (max-width: 1024px) {
-  .skills-grid { grid-template-columns: repeat(2,1fr); }
+  .skills-grid { grid-template-columns: repeat(3,1fr); }
 }
 @media (max-width: 768px) {
   .hamburger { display:flex; color: #fff;}
