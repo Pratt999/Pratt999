@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Surya </h1>
-<h3 align="center">Full Stack & Backend Developer | CSE Student</h3>
+<h3 align="center">Full Stack Developer and Cybersecurity Enthusiast | CSE Student</h3>
 
 <p align="center">
   <a href="https://github.com/SuryaRaikuni">GitHub</a> •
